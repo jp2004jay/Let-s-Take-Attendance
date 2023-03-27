@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Take Attendance</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section id="class_selection" class="all-center-content">
+        <div class="headding"></div>
+        <div class="sub-headding">
+            Pick a class if attendance is mandatory
+        </div>
+        <div id="class-btn">
+            <button class="class-design" id="class-A">A</button>
+            <button class="class-design" id="class-B">B</button>
+            <button class="class-design" id="class-C">C</button>
+            <button class="class-design" id="class-D">D</button>
+            <button class="class-design" id="class-H">H</button>
+        </div>
+    </section>
+
+    <section id="take-attendence-window" class="all-center-content" style="display: none;">
+        <div class="headding"></div>
+        <div class="sub-headding-class"></div>
+
+        <div id="first-section">
+            <div id="Roll-No-Here"></div>
+            <div style="display: flex;">
+                <button class="class-design another-page" id="p-btn">Present</button>
+                <button class="class-design another-page" id="a-btn">Absent</button>
+            </div>
+        </div>
+
+        <div id="absents-numbers">
+            Absent Roll no. are appear here
+        </div>
+
+        <a href="index.html"><button id="go-to-first-page" class="class-design another-page">Take Another Class</button></a>
+        
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

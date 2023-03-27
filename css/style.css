@@ -1,0 +1,129 @@
+:root{
+    --theam-primary: aquamarine;
+    --theam-secondary: cadetblue;
+    --thean-turnary: antiquewhite;
+    --theam-red: red;
+
+    --theam-font-primary: rgb(189, 159, 118);
+    --theam-font-secondary: rgb(40, 107, 109);
+
+    --theam-font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --theam-font-large: 2.5em;
+    --theam-font-small: 1.5em;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(200deg, var(--theam-primary), var(--thean-turnary), var(--theam-secondary));
+}
+.all-center-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headding{
+    font-size: var(--theam-font-large);
+    color: var(--theam-font-primary);
+    font-family: var(--theam-font);
+    font-weight: bold;
+    padding-top: 10vh;
+}
+.headding::after{
+    content: 'Let\'s Take Attendance';
+}
+.sub-headding{
+    font-size: var(--theam-font-small);
+    color: var(--theam-secondary);
+    font-family: var(--theam-font);
+    padding-top: 2vh;
+}
+#class-btn{
+    width: 80%;
+    padding-top: 20vh;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.class-design{
+    position: relative;
+    padding: 3vh 10vh;
+    font-size: var(--theam-font-large);
+    color: var(--theam-font-secondary);
+    font-family: var(--theam-font);
+    font-weight: bold;
+    background-image: linear-gradient(90deg, var(--thean-turnary), var(--theam-secondary));
+    border: none;
+    border-radius: 10vh 5vh;
+}
+.class-design:hover{
+    animation-name: button-hover-animation;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+}
+
+@keyframes button-hover-animation {
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.sub-headding-class{
+    font-size: var(--theam-font-small);
+    color: var(--theam-secondary);
+    font-family: var(--theam-font);
+    padding-top: 2vh;
+}
+
+.another-page{
+    padding: 2vh 3vh;
+    font-size: var(--theam-font-small);
+    background-image: linear-gradient(90deg, var(--theam-font-primary), var(--theam-secondary));
+    color: var(--thean-turnary);
+}
+.another-page:hover{
+    animation-name: anim-another-btn;
+}
+@keyframes anim-another-btn {
+    25%{
+        bottom: 0vh;
+    }
+    50%{
+        bottom: 1vh;
+    }
+    75%{
+        bottom: 1vh;
+    }
+    100%{
+        bottom: 0vh;
+    }
+}
+#Roll-No-Here{
+    font-size: 2em;
+    color: var(--theam-font-secondary);
+    font-weight: bold;
+}
+#first-section{
+    padding-top: 10vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#p-btn{
+    margin-right: 15%;
+}
+#absents-numbers{
+    width: 75%;
+    text-align: center;
+    padding: 15vh 0vh 8vh 0vh;
+    font-size: 2em;
+    color: var(--theam-red);
+    font-weight: bold;
+}
