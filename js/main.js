@@ -18,6 +18,7 @@ var content = 'Start attendance of Class-';
 
 let absentNumbers = [];
 let rollNoAnke;
+let counter=1;
 
 classA.addEventListener('click', dispalyFunction1);
 classB.addEventListener('click', dispalyFunction2);
@@ -57,13 +58,20 @@ function startAttendance(r){
 }
 
 function present(){
-    rollNoAnke++;
-    rollNo.textContent = rollNoAnke;
+    if(counter<=75){
+        rollNoAnke++;
+        rollNo.textContent = rollNoAnke;
+        counter++;
+    }
+    
 }
 
 function absent(){
-    absentNumbers.push(" "+rollNoAnke);
-    rollNoAnke++;
-    rollNo.textContent = rollNoAnke;
-    absentTextView.textContent = absentNumbers;
+    if(counter<=75){
+        absentNumbers.push(" "+rollNoAnke);
+        rollNoAnke++;
+        rollNo.textContent = rollNoAnke;
+        absentTextView.textContent = absentNumbers;
+        counter++;
+    }
 }
