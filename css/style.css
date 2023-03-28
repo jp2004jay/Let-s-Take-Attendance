@@ -127,3 +127,6 @@ body{
     color: var(--theam-red);
     font-weight: bold;
 }
+#button-p-a{
+    display: flex;
+}

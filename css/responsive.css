@@ -1,0 +1,78 @@
+@media screen and (max-width: 1093px){
+    .class-design{
+        padding: 2vh 5vh;
+    }
+    .another-page{
+        padding: 2vh 4vh;
+    }
+}
+@media screen and (max-width: 853px){
+    .class-design{
+        padding: 1vh 4vh;
+    }
+    #button-p-a{
+        flex-direction: column;
+    }
+    .another-page{
+        padding: 1vh 4vh;
+        margin-top: 2vh;
+    }
+}
+@media screen and (max-width: 755px){
+    #class-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .class-design{
+        width: 40%;
+        margin-bottom: 1.5vh;
+    }
+    .another-page{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    .headding{
+        font-size: 2em;
+    }
+    .sub-headding{
+        font-size: 1em;
+    }
+    .class-design{
+        font-size: 2em;
+    }
+    .another-page{
+        font-size: 1em;
+    }
+    #Roll-No-Here{
+        font-size: 1.5em;
+    }
+    #absents-numbers{
+        font-size: 1.5em;
+        padding-top: 10vh;
+    }
+}
+@media screen and (max-width: 362px){
+    .headding{
+        font-size: 1.5em;
+    }
+    .sub-headding{
+        font-size: 0.8em;
+    }
+    .sub-headding-class{
+        font-size: 0.8em;
+    }
+    .class-design{
+        font-size: 1.5em;
+    }
+    .another-page{
+        font-size: 0.8em;
+    }
+    #Roll-No-Here{
+        font-size: 0.8em;
+    }
+    #absents-numbers{
+        font-size: 0.8em;
+        padding-top: 7vh;
+    }
+}
