@@ -45,10 +45,10 @@
         font-size: 1em;
     }
     #Roll-No-Here{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     #absents-numbers{
-        font-size: 1.5em;
+        font-size: 2em;
         padding-top: 10vh;
     }
 }
@@ -69,10 +69,10 @@
         font-size: 0.8em;
     }
     #Roll-No-Here{
-        font-size: 0.8em;
+        font-size: 1.5em;
     }
     #absents-numbers{
-        font-size: 0.8em;
+        font-size: 1.5em;
         padding-top: 7vh;
     }
 }
