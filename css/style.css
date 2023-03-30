@@ -105,7 +105,7 @@ body{
     }
 }
 #Roll-No-Here{
-    font-size: 2em;
+    font-size: 3em;
     color: var(--theam-font-secondary);
     font-weight: bold;
 }
@@ -122,8 +122,8 @@ body{
 #absents-numbers{
     width: 75%;
     text-align: center;
-    padding: 15vh 0vh 8vh 0vh;
-    font-size: 2em;
+    padding: 10vh 0vh 5vh 0vh;
+    font-size: 3em;
     color: var(--theam-red);
     font-weight: bold;
 }
