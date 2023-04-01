@@ -130,3 +130,6 @@ body{
 #button-p-a{
     display: flex;
 }
+#last-step-go-back{
+    margin-left: 2%;
+}
