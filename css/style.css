@@ -130,6 +130,8 @@ body{
 #button-p-a{
     display: flex;
 }
-#last-step-go-back{
-    margin-left: 20vh;
+#last-step-go-back-last-pan{
+    dispay: flex;
+    width: 60%;
+    justify-content: space-evenly;
 }
