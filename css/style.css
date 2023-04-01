@@ -134,4 +134,5 @@ body{
     dispay: flex;
     width: 60%;
     justify-content: space-evenly;
+    align-item: center;
 }
