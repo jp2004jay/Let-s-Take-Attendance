@@ -13,6 +13,9 @@
     #button-p-a{
         flex-direction: column;
     }
+    #last-step-go-back{
+        flex-direction: column;
+    }
     .another-page{
         padding: 1vh 4vh;
         margin-top: 2vh;
