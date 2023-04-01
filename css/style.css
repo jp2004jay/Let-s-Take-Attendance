@@ -132,7 +132,4 @@ body{
 }
 #last-step-go-back-last-pan{
     dispay: flex;
-    width: 60%;
-    justify-content: space-evenly;
-    align-item: center;
 }
