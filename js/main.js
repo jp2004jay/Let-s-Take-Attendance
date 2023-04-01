@@ -80,11 +80,7 @@ function absent(){
 
 function mathodOfLastStep(){
     if(counter>0){
-        for(int i=0; i<absentNumbers.length; i++){
-            if((" "+rollNoAnke) == absentNumbers[i]){
-                absentNumbers.pop(" "+rollNoAnke);
-            }
-        }
+        absentNumbers.pop(" "+rollNoAnke);
         rollNoAnke--;
         rollNo.textContent = rollNoAnke;
         absentTextView.textContent = absentNumbers;
