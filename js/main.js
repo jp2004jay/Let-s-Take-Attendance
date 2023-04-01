@@ -12,6 +12,7 @@ var classHead = document.querySelector('.sub-headding-class');
 var classSelection = document.getElementById('class_selection');
 var takeAttendance = document.getElementById('take-attendence-window');
 var absentTextView = document.getElementById('absents-numbers');
+var goBackLastStep = document.getElementById('last-step-go-back');
 
 var classOfText = ['A','B','C','D','H'];
 var content = 'Start attendance of Class-'; 
@@ -28,6 +29,7 @@ classH.addEventListener('click', dispalyFunction5);
 
 presentBtn.addEventListener('click', present);
 absentBtn.addEventListener('click', absent);
+goBackLastStep.addEventListener('click', mathodOfLastStep);
 
 function dispalyFunction1(){
     classHead.textContent = content+classOfText[0];
@@ -74,4 +76,11 @@ function absent(){
         absentTextView.textContent = absentNumbers;
         counter++;
     }
+}
+
+function mathodOfLastStep(){
+    absentNumbers.pop(" "+rollNoAnek);
+    rollNoAnek--;
+    rollNo.textContent = rollNoAnek;
+    absentTextView.textContent = abesentNumbers;
 }
