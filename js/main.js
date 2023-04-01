@@ -79,8 +79,9 @@ function absent(){
 }
 
 function mathodOfLastStep(){
-    absentNumbers.pop(" "+rollNoAnek);
-    rollNoAnek--;
-    rollNo.textContent = rollNoAnek;
-    absentTextView.textContent = abesentNumbers;
+    absentNumbers.pop(" "+rollNoAnke);
+    rollNoAnke--;
+    rollNo.textContent = rollNoAnke;
+    absentTextView.textContent = absentNumbers;
+    counter--;
 }
