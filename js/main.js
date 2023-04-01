@@ -79,9 +79,15 @@ function absent(){
 }
 
 function mathodOfLastStep(){
-    if(counter>0){
-        absentNumbers.pop(" "+rollNoAnke);
+    if(counter>1){
         rollNoAnke--;
+        let tempString = " "+rollNoAnke;
+
+        absentNumbers.forEach(element => {
+            if(element == tempString){
+                absentNumbers.pop(tempString);
+            }
+        });
         rollNo.textContent = rollNoAnke;
         absentTextView.textContent = absentNumbers;
         counter--;
